@@ -1,0 +1,213 @@
+@import url('https://fonts.googleapis.com/css2?family=Bellefair&family=Pacifico&family=Raleway:wght@600&family=Roboto+Slab&family=Roboto:wght@100&family=Sue+Ellen+Francisco&display=swap');
+
+*, *::before, *::after{
+    box-sizing: border-box;
+}
+
+/* color digunakan  */
+h1 {
+    /* background-color: #36384c;
+    background-color: #DFE2D2;
+    background-color: #6D7973;
+    background-color: #DDE2E3;
+    background-color: #193446;
+    background-color: #EBECED; */
+
+    /* font website */
+    /* untuk footer */
+    font: roboto-slab ;
+    /* untuk teks/p */
+    font: Bellafair, serif ;
+    /* untk h1 h */
+    font: Raleway, serif ;  
+    /* untuk hobby */
+    font: Sue Ellen Francisco, serif;
+}
+
+ html,
+ body {
+   margin: 0;
+   padding: 0;
+ }
+
+ /* Mengatur header */
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 16.67vw; /* Lebar 16.67vw */
+    height: 100vw; /* Tinggi 100vw */
+    background-color: #193446; /* Warna latar belakang header */
+  }
+  
+  .container-header {
+    padding: 20px;
+  }
+
+  .profile {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .profile img {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+    margin: 10px auto;
+    display: block;
+    border: 8px solid #DFE2D2;
+    object-fit: cover;
+    background-color: #EBECED;
+  }
+  
+  .profile h1 {
+    font-size: 25px;
+    margin-bottom: 5px;
+    color: #EBECED;
+    font-family: Bellafair, serif;
+
+  }
+  .social-media {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+  }
+  
+  .social-media a {
+    margin-top: 5px;
+    margin-bottom: -5px;
+    margin-right: 10px;
+    margin-left: 10px;
+    color: #EBECED;
+   }
+  
+  .navbar ul {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    align-items: flex-start;
+    height: 100%;
+    list-style-type: none;
+  }
+  
+  .navbar li {
+    margin-top: 10px;
+    margin-right: 10px;
+  }
+  
+  .navbar a {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    padding: 5px 10px;
+    margin-left: -75px;
+    margin-right: 5px;
+    color: #EBECED;
+  }
+  .navbar i {
+    margin-right: 10px;
+  }
+
+  .navbar a:hover {
+    color: skyblue;
+  }
+
+
+  /* Mengatur section home */
+  .container-home {
+    margin-left: 16.67vw;
+    padding: 20px;
+    width: 100%;
+    height: 100vw;
+    background: url("../img/agen\ \(2\).jpg") top center;
+    background-size: cover;
+  }
+
+  #container-home:before {
+    content: "";
+    margin-left: 16.67vw;;
+    background: rgba(5, 13, 24, 0.3);
+    position: absolute;
+    bottom: 0;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1;
+  }
+  #container-home .home-container {
+    display: inline-block;
+    justify-content: column;
+    align-items:center;
+    position: relative;
+    z-index: 2;
+    min-width: 300px;
+  }
+  
+  #container-home h1 {
+    margin: 0 0 10px 0;
+    font-size: 64px;
+    font-weight: 700;
+    line-height: 56px;
+    color: #fff;
+  }
+  
+  #container-home p {
+    color: #fff;
+    margin-bottom: 50px;
+    font-size: 26px;
+    font-family: "Poppins", sans-serif;
+  }
+  
+  #container-home p span {
+    color: #fff;
+    padding-bottom: 4px;
+    letter-spacing: 1px;
+    border-bottom: 3px solid #149ddd;
+  }
+  @media (min-width: 1024px) {
+    #container-home {
+      background-attachment: fixed;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    #container-home h1 {
+      font-size: 28px;
+      line-height: 36px;
+    }
+  
+    #container-home h2 {
+      font-size: 18px;
+      line-height: 24px;
+      margin-bottom: 30px;
+    }
+  }  
+
+
+
+  
+  /* Contoh styling tambahan untuk section home */
+  /* .container-home {
+    background-color: #fff;  */
+  
+  /* .home-container {
+    text-align: center;
+  }
+  
+  .home-container h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .home-container p {
+    font-size: 16px;
+  }
+  
+  
+   */
+  
+  
